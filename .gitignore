@@ -1,0 +1,14 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# data & artifacts
+data/
+labels/
+videos/
+
+# editors
+.vscode/
+.idea/
