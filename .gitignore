@@ -12,3 +12,11 @@ videos/
 # editors
 .vscode/
 .idea/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

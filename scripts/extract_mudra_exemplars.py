@@ -20,6 +20,30 @@ LANDMARK_NAMES = [
     "PINKY_MCP","PINKY_PIP","PINKY_DIP","PINKY_TIP"
 ]
 
+connections = '''
+l 1 2
+l 2 3
+l 3 4
+l 4 5
+l 1 6
+l 6 7 
+l 7 8
+l 8 9
+l 6 10
+l 10 11
+l 11 12
+l 12 13
+l 10 14
+l 14 15
+l 15 16
+l 16 17
+l 14 18
+l 18 19
+l 19 20
+l 20 21
+l 1 18
+'''
+
 @dataclass
 class Transform:
     translation: List[float]
